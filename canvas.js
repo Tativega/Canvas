@@ -16,7 +16,6 @@ var mouse = {
 };
 
 var maxRadius = 40;
-¿
 
 window.addEventListener("mousemove", function (e) {
   mouse.x = e.x;
@@ -109,7 +108,7 @@ function init () {
         circleArray.push(new Circle(x, y, dx, dy, radius));
       }
 }
-+
+
 
 function animate() {
   requestAnimationFrame(animate);
